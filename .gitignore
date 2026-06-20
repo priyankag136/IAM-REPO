@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# Plan files
+*.tfplan
+
+# Sensitive files
+*.pem
+*.key
+
+# IDE files
+.vscode/
+.idea/
+
+*.sh
