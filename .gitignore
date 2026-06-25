@@ -1,0 +1,16 @@
+*.tfstate
+*.tfstate.*
+.*.lock.hcl
+.terraform/
+
+*.tfvars
+*.tfplan
+*.tfvars.json
+
+# Sensitive files
+*.pem
+*.key
+
+# IDE files
+.vscode/
+.idea/
