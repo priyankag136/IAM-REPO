@@ -21,3 +21,4 @@ resource "aws_iam_user_login_profile" "users" {
     ignore_changes = [ password_reset_required, password_length ]
   }
 }
+

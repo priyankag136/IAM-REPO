@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+*.tfstate
+*.tfstate.*
+.*.lock.hcl
+.terraform/
+
+*.tfvars
+*.tfplan
+*.tfvars.json
+
+=======
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# Plan files
+*.tfplan
+
+>>>>>>> c19f3b230987486bacd102d86a5fa98d76b431bf
+# Sensitive files
+*.pem
+*.key
+
+# IDE files
+.vscode/
+<<<<<<< HEAD
+.idea/
+=======
+.idea/
+
+*.sh
+>>>>>>> c19f3b230987486bacd102d86a5fa98d76b431bf

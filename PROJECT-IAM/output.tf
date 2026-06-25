@@ -17,3 +17,17 @@ output "ungrouped_users" {
     for user in local.ungrouped_users: user.name
   ]
 }
+
+
+/*
+output "user_password" {
+  value = {
+    for user, prof in aws_iam_user_login_profile.login:
+    user => prof.encrypted_password 
+
+    }
+    
+    sensitive = true
+
+}*/
+
